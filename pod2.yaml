@@ -6,9 +6,9 @@ metadata:
     app: POD-2-Containers
 spec:
   containers:
-  - name: some_watcher
+  - name: some-watcher
     image: afakharany/watcher
-  - name: some_nginx
+  - name: some-nginx
     image: nginx
     ports:
     - name: nginx_port
