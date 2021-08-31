@@ -2,7 +2,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: pod2containers
-  labels: POD-2-Containers
+  labels: 
+    app: POD-2-Containers
 spec:
   containers:
   - name: some_watcher
