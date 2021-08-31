@@ -11,5 +11,5 @@ spec:
   - name: some-nginx
     image: nginx
     ports:
-    - name: nginx_port
+    - name: nginx-port
       containerPort: 80
